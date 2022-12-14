@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.App {
+  height: 100vh;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 20% 60% 20%;
+  
+}
+
+.Header {
+  height: 42px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  margin-top: 2px;
+  margin-left: 2px;
+
+  background-color: white;
+  border: solid #4a90e2;
+  text-align: center;
+}
+
+.SearchBar {
+  height: 42px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  margin-top: 5px;
+  margin-left: 2px;
+
+  border: solid #417505;
+  background-color: white;
+  text-align: center;
+}
+
+.Search {
+  height: 25px;
+  width: 329px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  margin-top: 8px;
+  margin-left: 2px;
+
+  border: solid #f1f1f1;
+  border-radius: 5px;
+  background-color: white;
+  resize: none;
+}
+
+.EmployeeList {
+  height: 525px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  margin-top: 50px;
+  margin: 2px;
+  
+  border: solid #c131e3;
+  background-color: white;
+}
+
+.EmployeeListItem {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.Employee {
+  display: flex;
+  flex-direction: row;
+  border: solid #d0011b;
+  background-color: white;
+  
+  margin: 2px;
+  height: 77px;
+  width: 329px;
+}
+
+.Profile {
+  display: flex;
+
+  border: solid white;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+
+.Name {
+  width: 300px;
+  
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  justify-content: center;
+  text-align: left;
+  padding: 0px;
+
+}
+
+
+
+
