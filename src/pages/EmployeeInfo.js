@@ -34,7 +34,7 @@ export default function Employee(props) {
 
                     <h1>Employee</h1>
                 </div>
-                <div className='details detailsMain'>
+                <div className=''>
                     <img src={employeeInfo.img} alt="img" />
                     <div >
                         <h2>{employeeInfo.name}</h2>
